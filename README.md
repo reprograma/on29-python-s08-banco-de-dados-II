@@ -4,7 +4,7 @@
 
 # Tema da Aula
 
-Turma Online X | X-end | Semana X | 202X | Professora X
+Turma Online 0n29 | Python | Semana 8 | 2024 | Professora Daviny Letícia
 
 ### Instruções
 Antes de começar, vamos organizar nosso setup.
@@ -351,19 +351,10 @@ conn.close()
 ```
 
 
-
 ***
 ### Exercícios 
-* [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
-* [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
-
-### Material da aula 
-
-### Links Úteis
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
+* [Exercicio para sala](https://github.com/reprograma/on29-python-s08-banco-de-dados-II/tree/main/exercicios/para-sala)
+* [Exercicio para casa](https://github.com/reprograma/on29-python-s08-banco-de-dados-II/tree/main/exercicios/para-casa)
 
 
 <p align="center">
