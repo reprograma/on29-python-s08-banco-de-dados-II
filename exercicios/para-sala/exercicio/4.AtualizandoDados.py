@@ -3,7 +3,11 @@ import sqlite3
 conn = sqlite3.connect('escola.db')
 cursor = conn.cursor()
 
-cursor.execute("UPDATE estudantes SET idade = ? WHERE id = ?", (18, 2))
+id = input("Digite o ID do estudante que deseja atualizar: ")
+novo_nome = input("Digite o novo nome: ")
+nova_idade = int(input("Digite a nova idade: "))
+
+cursor.execute("UPDATE estudantes SET nome = ?, idade = ? WHERE id = ?", (novo_nome, nova_idade, id))
 
 cursor.execute("SELECT * FROM estudantes")
 registros = cursor.fetchall()
