@@ -164,7 +164,7 @@
        leitor = csv.reader(csvfile)
        next(leitor)  # Pular o cabeçalho
        for linha in leitor:
-           cursor.execute("INSERT INTO clientes (nome, email) VALUES (?, ?)", (linha[1], linha[2]))
+           cursor.execute("INSERT INTO clientes (nome, email) VALUES (?, ?) where id = ?", (linha[1], linha[2], linha[0]))
 
    conn.commit()
    cursor.close()
