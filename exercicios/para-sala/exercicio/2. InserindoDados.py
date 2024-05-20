@@ -12,6 +12,9 @@ dados = [
     ('Pedro', 15)
 ]
 
+# Executa instrução SQL
+# inseri, atualiza ou deleta múltiplos registros de uma só vez, 
+# É utilizado para não fazer isso um por um com várias chamados ao 'cursor.execute()'.
 cursor.executemany("INSERT INTO estudantes (nome, idade) VALUES (?, ?)", dados)
 
 conn.commit()
