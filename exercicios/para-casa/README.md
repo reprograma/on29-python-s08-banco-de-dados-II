@@ -8,7 +8,7 @@ O objetivo deste exercício é praticar a integração de arquivos CSV com um ba
 
 #### Descrição do Exercício
 
-1. **Criação do Banco de Dados e Tabela**
+1. **Criação do Banco de Dados e Tabela** - [x]
     - Crie um banco de dados SQLite chamado `livraria.db`.
     - Crie uma tabela chamada `livros` com as colunas:
         - `id` (INTEGER, chave primária, autoincremento)
@@ -17,12 +17,12 @@ O objetivo deste exercício é praticar a integração de arquivos CSV com um ba
         - `ano` (INTEGER)
         - `preco` (REAL)
 
-2. **Importação de Dados de um CSV**
+2. **Importação de Dados de um CSV** - [x]
     - Crie um arquivo CSV chamado `livros.csv` com as colunas `titulo`, `autor`, `ano`, e `preco`.
     - Adicione pelo menos 5 registros no arquivo `livros.csv`.
     - Escreva um script Python que leia os dados de `livros.csv` e insira-os na tabela `livros`.
 
-3. **Consulta e Exibição de Dados**
+3. **Consulta e Exibição de Dados** - [x]
     - Escreva um script Python que selecione e exiba todos os registros da tabela `livros`.
 
 4. **Atualização de Dados**
