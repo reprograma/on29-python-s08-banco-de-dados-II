@@ -141,6 +141,6 @@ def export_db():
 
     cursor.close()
     conn.close()
-    print("--- Os registros do Database foram exportados para o arquivo 'livros_exportados.csv' com sucesso. ---")
+    print("--- Os registros do Database foram exportados para o arquivo 'livros_exportados.csv' com sucesso! ---")
 
 menu()
