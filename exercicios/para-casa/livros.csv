@@ -1,0 +1,16 @@
+
+# titulo, autor, ano, preco
+
+livros = [ 
+    {"titulo": "Sonho de Uma Noite de Verão", "autor": "Willian Shakespeare", "ano": 2021, "preco": 21,20},
+    {"titulo": "Receitas Amorosas de uma Feiticeira", "autor": "Brigitte Bulard Cordeau", "ano": 2021, "preco": 21,20},
+    {"titulo": "Encontro Com Rama", "autor": "Artur C. Clarke", "ano": 2020, "preco": 61,53},
+    {"titulo": "Gabriela, Cravo e Canela", "autor": "Jorge Amado", "ano": 2012, "preco": 46,92},
+    {"titulo": "Memórias Póstumas de Brás Cubas", "autor": "Machado de Assis", "ano": 2019, "preco": 13,93}
+]
+
+with open('livros.csv', mode = 'w', newline='', encoding='utf-8') as arquivo_csv:
+     escritor = csv.DictWRITER(arquivo_csv, fieldnames= ['titulo', 'autor', 'ano', 'preco'])
+     escritor.writeheader()
+     escritor.writerows(livros)
+     
