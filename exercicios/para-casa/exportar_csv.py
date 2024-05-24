@@ -1,14 +1,14 @@
-# Importa a biblioteca sqlite3
-# Importa a biblioteca csv 
-# Conecta ao banco de dados
-# Cria um cursor
+# Importar a biblioteca sqlite3
+# Importar a biblioteca csv 
+# Conectar ao banco de dados
+# Criar um cursor
 # Selecionar todos os registros da tabela 'livros'
 # Pegar todos os registros
 # Abrir um arquivo CSV para escrita
 # Criar um escritor de CSV
 # Escrever o cabeçalho no arquivo CSV
 # Escrever todos os registros no arquivo CSV
-
+# Fechar a conexão 
 
 
 import sqlite3   
@@ -36,7 +36,7 @@ with open('exportados_livros.csv', 'w', newline='') as file:
     
     writer.writerows(rows)
 
-# Fecha a conexão com o banco de dados
+
 conn.close()
 
 # Imprime uma mensagem indicando que os dados foram exportados com sucesso
