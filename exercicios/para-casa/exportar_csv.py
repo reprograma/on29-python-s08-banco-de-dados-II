@@ -39,5 +39,5 @@ with open('exportados_livros.csv', 'w', newline='') as file:
 
 conn.close()
 
-# Imprime uma mensagem indicando que os dados foram exportados com sucesso
-print("Dados exportados com sucesso para o novo arquivo CSV!")
+
+print("Abala bicha ! Tá tudo lá!")
